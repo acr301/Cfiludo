@@ -50,6 +50,17 @@ namespace sesion090924
         }
       }
     }
+
+    public class ArreglosParalelos
+    {
+      // int[nEstudiantes] estudiantes 
+      // int[nEstudiantes,]
+      public void CalificacionesEstudiantes(int[] estudiantes, int[,] calificaciones)
+      {
+
+
+      }
+    }
   }
 
   class Program
