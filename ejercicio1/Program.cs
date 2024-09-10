@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("====== Calculadora de Tiradas de Dados ======");
 
-        Console.WriteLine("+: Inserte la cantidad de veces que va a tirar los dados: ");
+        Console.WriteLine("+: Inserte la cantidad de veces que va a tirar los dados (default: 36,000): ");
 
         int Tiradas;
         while (!int.TryParse(Console.ReadLine() ?? "", out Tiradas)) {
