@@ -1,0 +1,19 @@
+
+# Ignore everything inside ejercicio* directories
+ejercicio*/**
+
+# Track essential files: Program.cs and .csproj files
+!ejercicio*/Program.cs
+!ejercicio*/*.csproj
+
+# Track any other necessary files, e.g., README.md
+!ejercicio*/README.md
+
+# Ignore build artifacts and IDE-specific files
+bin/
+obj/
+.vscode/
+.vs/
+*.user
+*.suo
+*.sln
