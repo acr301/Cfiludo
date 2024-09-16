@@ -1,6 +1,6 @@
 ﻿namespace ejercicio3;
 
-
+// https://introcs.cs.luc.edu/arrays/twodim.html
 /* decido usar foreach en vez de for porque es mas legible
  *
  *
