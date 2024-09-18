@@ -1,11 +1,7 @@
 ﻿namespace ejercicio3;
 
 // https://introcs.cs.luc.edu/arrays/twodim.html
-/* decido usar foreach en vez de for porque es mas legible
- *
- *
- */
-
+// https://youtu.be/WjAfLNZAlAY?si=K-LTZE3i5RtEbiyv
 public class Empresa
 {
   public class Venta
@@ -19,12 +15,9 @@ public class Empresa
 
     //total de productos por dolares por dia
     //5x5 donde el nombre del producto va con su respectivo total diario
-    //totalProductosDol[i, 0 ] = numnombreproducto, totalProductosDol[0, j] = totalproductodiariodol
     static int[,] totalProductosDol = new int[5, 5];
 
-    //ventas de supuestos volantes del mes anterior
     //ventas totales por vendedor y producto
-
     //vendedor [i,] producto [,j]
     int[,] ventas = new int[4, 5];
 
@@ -36,10 +29,11 @@ public class Empresa
     {
       // TO-DO -> mejorar encapsulacion, usar propiedades para
       // rangos y DRY (do not repeat yourself)
-      public int rangoVendedores = vendedores.Length;
+      static int diasMes;
+      static public int rangoVendedores = vendedores.Length;
       int rangoVentasDia;
-      int rangoVolantesDia;
-
+      static int rangoVolantesDia = 5 * rangoVendedores;
+      int rangoVolantesMes = rangoVolantesDia * diasMes;
       public int rangoProductos = productos.Length;
 
       int cantidadDiasMes;
