@@ -15,8 +15,7 @@ class Program
   }
 }
 
-
-
+//TO-DO -> Usando banderas, refactorizar validacion input
 public class AyudanteInput
 {
   /*
