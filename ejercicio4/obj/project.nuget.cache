@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XNaLT5KpuhnDESePmlU8sm+p0oSBoGmwNOXqPtPIRPLKJie1VnQMSiVUMNyNjTno2GM2qBWE98DR6bLfV+mz8w==",
+  "success": true,
+  "projectFilePath": "/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/ejercicio4.csproj",
+  "expectedPackageFiles": [
+    "/Users/marie/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/marie/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
+    "/Users/marie/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

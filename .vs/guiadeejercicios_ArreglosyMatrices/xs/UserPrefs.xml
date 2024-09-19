@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{41892B98-BACD-47D7-B00A-A5469279C211}|Default">
+  <MonoDevelop.Ide.ItemProperties.ejercicio2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ejercicio3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ejercicio4/Program.cs">
+    <Files>
+      <File FileName="ejercicio1/Program.cs" Line="15" Column="29" />
+      <File FileName="guiadeejercicios_ArreglosyMatrices/Program.cs" Line="1" Column="1" />
+      <File FileName="ejercicio3/Program.cs" Line="1" Column="1" />
+      <File FileName="ejercicio4/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="guiadeejercicios_ArreglosyMatrices" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ejercicio4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ejercicio1 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

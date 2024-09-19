@@ -1,0 +1,15 @@
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/bin/Debug/net6.0/ejercicio4
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/bin/Debug/net6.0/ejercicio4.deps.json
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/bin/Debug/net6.0/ejercicio4.runtimeconfig.json
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/bin/Debug/net6.0/ejercicio4.dll
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/bin/Debug/net6.0/ejercicio4.pdb
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.csproj.AssemblyReference.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.AssemblyInfoInputs.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.AssemblyInfo.cs
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.csproj.CoreCompileInputs.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.dll
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/refint/ejercicio4.dll
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.pdb
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ejercicio4.genruntimeconfig.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/ejercicio4/obj/Debug/net6.0/ref/ejercicio4.dll

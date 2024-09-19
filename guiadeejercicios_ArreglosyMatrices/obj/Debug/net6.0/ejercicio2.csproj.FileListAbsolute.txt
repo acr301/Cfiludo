@@ -1,0 +1,15 @@
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/bin/Debug/net6.0/ejercicio2
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/bin/Debug/net6.0/ejercicio2.deps.json
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/bin/Debug/net6.0/ejercicio2.runtimeconfig.json
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/bin/Debug/net6.0/ejercicio2.dll
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/bin/Debug/net6.0/ejercicio2.pdb
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.csproj.AssemblyReference.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.AssemblyInfoInputs.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.AssemblyInfo.cs
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.csproj.CoreCompileInputs.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.dll
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/refint/ejercicio2.dll
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.pdb
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ejercicio2.genruntimeconfig.cache
+/Users/marie/Desktop/College/Projects/guiadeejercicios_ArreglosyMatrices/guiadeejercicios_ArreglosyMatrices/obj/Debug/net6.0/ref/ejercicio2.dll
