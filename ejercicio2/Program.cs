@@ -7,60 +7,37 @@ class Program
   {
     ReservacionAerolinea reserva = new ReservacionAerolinea();
 
-    string textoMenu = @"Please type 1 for 'smoking'
-    Please type 2 for 'non-smoking'";
 
-    int enteroValidado = AyudanteInput.ParsearEntero();
-    Console.Write(enteroValidado);
+    int inputUsuarioValidada = AyudanteInput.ObtenerRespuestaValidada();
+
+    // pasar inputUsuarioValidada (1 o 2) al switch del Menu
   }
 }
 
 //TO-DO -> Usando banderas, refactorizar validacion input
 public class AyudanteInput
 {
-  /*
-   public static int ObtenerEnteroValido(string promptMensaje)
-   {
-     int resultado;
-    // Console.WriteLine(promptMensaje);
-
-    while (!int.TryParse(Console.ReadLine(), out resultado))
-    {
-      Console.WriteLine(" Not a valid seat ");
-    }
-      return resultado;
-    }
-    */
-
-
-  // validacion de tipo y rango dentro de array
-  public static int ParsearEntero()
+  public static int ObtenerRespuestaValidada()
   {
-    int numero;
-    /* si inputNumero distinto a 1 o 2
-    int resultado;
-    while (!int.TryParse(Console.ReadLine(), out resultado))
+    int respuestaValidada;
+
+    string promptUser = @"
+    Please type 1 for 'smoking'
+    Please type 2 for 'non-smoking'
+    ";
+
+    do
     {
-      Console.WriteLine(" Not a valid answer ");
-    }
-    */
-    while (true)
-    {
-      Console.Clear();
-      Console.WriteLine("escribe 1 si fuma, 2 si no fuma");
-      if (!int.TryParse(Console.ReadLine(), out numero) || (numero != 1 && numero != 2))
+      Console.WriteLine(promptUser);
+      string inputUsuario = Console.ReadLine();
+
+      if (int.TryParse(inputUsuario, out respuestaValidada) && (respuestaValidada == 1 || respuestaValidada == 2))
       {
-        Console.WriteLine("invalid option");
-        Console.ReadKey();
-        Console.Clear();
+        return respuestaValidada;
       }
-      else
-      {
-        return numero;
-      }
-      break;
-    }
-    return 0;
+
+      Console.WriteLine(" Must be 1 or 2 ");
+    } while (true);
   }
 }
 
@@ -69,29 +46,15 @@ public class ReservacionAerolinea
   const int capacidad = capacidadFumar + capacidadNoFumar;
   const int capacidadFumar = 5;
   const int capacidadNoFumar = 5;
-  private int[] asientos = new int[capacidad];
+
   public int[] asientosOcupados = new int[capacidad];
   private int[] asientosFumar = new int[capacidadFumar];
   private int[] asientosNoFumar = new int[capacidadNoFumar];
 
   public ReservacionAerolinea()
   {
-    InicializarAsientos();
     InicializarAsientosFumar();
     InicializarAsientosNoFumar();
-  }
-  private void InicializarAsientos()
-  {
-    asientos[0] = 1;
-    asientos[1] = 2;
-    asientos[2] = 3;
-    asientos[3] = 4;
-    asientos[4] = 5;
-    asientos[5] = 6;
-    asientos[6] = 7;
-    asientos[7] = 8;
-    asientos[8] = 9;
-    asientos[9] = 10;
   }
   private void InicializarAsientosFumar()
   {
@@ -130,7 +93,7 @@ public class ReservacionAerolinea
     return asientosOcupados;
   }
 
-  public int[] Menu(int respuesta)
+  public int[] Ocupador(int respuesta)
   {
     switch (respuesta)
     {
@@ -141,7 +104,7 @@ public class ReservacionAerolinea
         int[] ocupadosNoFumar = OcuparAsientosNoFumar();
         return ocupadosNoFumar;
       default:
-        return asientos;
+        return asientosOcupados;
     }
   }
 }
