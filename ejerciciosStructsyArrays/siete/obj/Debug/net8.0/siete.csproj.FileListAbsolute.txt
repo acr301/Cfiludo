@@ -1,0 +1,14 @@
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/bin/Debug/net8.0/siete
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/bin/Debug/net8.0/siete.deps.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/bin/Debug/net8.0/siete.runtimeconfig.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/bin/Debug/net8.0/siete.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/bin/Debug/net8.0/siete.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/siete.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/siete.AssemblyInfoInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/siete.AssemblyInfo.cs
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/siete.csproj.CoreCompileInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/siete.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/refint/siete.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/siete.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/siete.genruntimeconfig.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/siete/obj/Debug/net8.0/ref/siete.dll

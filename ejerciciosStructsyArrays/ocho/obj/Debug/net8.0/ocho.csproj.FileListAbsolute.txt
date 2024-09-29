@@ -1,0 +1,14 @@
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/bin/Debug/net8.0/ocho
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/bin/Debug/net8.0/ocho.deps.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/bin/Debug/net8.0/ocho.runtimeconfig.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/bin/Debug/net8.0/ocho.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/bin/Debug/net8.0/ocho.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ocho.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ocho.AssemblyInfoInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ocho.AssemblyInfo.cs
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ocho.csproj.CoreCompileInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ocho.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/refint/ocho.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ocho.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ocho.genruntimeconfig.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/ocho/obj/Debug/net8.0/ref/ocho.dll

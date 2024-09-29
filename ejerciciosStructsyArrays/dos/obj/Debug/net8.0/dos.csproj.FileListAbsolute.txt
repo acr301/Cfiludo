@@ -1,0 +1,14 @@
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/bin/Debug/net8.0/dos
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/bin/Debug/net8.0/dos.deps.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/bin/Debug/net8.0/dos.runtimeconfig.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/bin/Debug/net8.0/dos.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/bin/Debug/net8.0/dos.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/dos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/dos.AssemblyInfoInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/dos.AssemblyInfo.cs
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/dos.csproj.CoreCompileInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/dos.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/refint/dos.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/dos.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/dos.genruntimeconfig.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/dos/obj/Debug/net8.0/ref/dos.dll

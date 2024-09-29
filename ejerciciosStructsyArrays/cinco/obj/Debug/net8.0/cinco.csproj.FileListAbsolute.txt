@@ -1,0 +1,14 @@
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/bin/Debug/net8.0/cinco
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/bin/Debug/net8.0/cinco.deps.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/bin/Debug/net8.0/cinco.runtimeconfig.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/bin/Debug/net8.0/cinco.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/bin/Debug/net8.0/cinco.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/cinco.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/cinco.AssemblyInfoInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/cinco.AssemblyInfo.cs
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/cinco.csproj.CoreCompileInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/cinco.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/refint/cinco.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/cinco.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/cinco.genruntimeconfig.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cinco/obj/Debug/net8.0/ref/cinco.dll

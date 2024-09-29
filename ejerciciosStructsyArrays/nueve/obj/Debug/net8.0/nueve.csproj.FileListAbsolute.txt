@@ -1,0 +1,14 @@
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/bin/Debug/net8.0/nueve
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/bin/Debug/net8.0/nueve.deps.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/bin/Debug/net8.0/nueve.runtimeconfig.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/bin/Debug/net8.0/nueve.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/bin/Debug/net8.0/nueve.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/nueve.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/nueve.AssemblyInfoInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/nueve.AssemblyInfo.cs
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/nueve.csproj.CoreCompileInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/nueve.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/refint/nueve.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/nueve.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/nueve.genruntimeconfig.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/nueve/obj/Debug/net8.0/ref/nueve.dll

@@ -1,0 +1,14 @@
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/bin/Debug/net8.0/cuatro
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/bin/Debug/net8.0/cuatro.deps.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/bin/Debug/net8.0/cuatro.runtimeconfig.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/bin/Debug/net8.0/cuatro.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/bin/Debug/net8.0/cuatro.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/cuatro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/cuatro.AssemblyInfoInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/cuatro.AssemblyInfo.cs
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/cuatro.csproj.CoreCompileInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/cuatro.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/refint/cuatro.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/cuatro.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/cuatro.genruntimeconfig.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/cuatro/obj/Debug/net8.0/ref/cuatro.dll

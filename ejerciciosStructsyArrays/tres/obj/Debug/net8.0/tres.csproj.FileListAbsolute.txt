@@ -1,0 +1,14 @@
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/bin/Debug/net8.0/tres
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/bin/Debug/net8.0/tres.deps.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/bin/Debug/net8.0/tres.runtimeconfig.json
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/bin/Debug/net8.0/tres.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/bin/Debug/net8.0/tres.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/tres.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/tres.AssemblyInfoInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/tres.AssemblyInfo.cs
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/tres.csproj.CoreCompileInputs.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/tres.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/refint/tres.dll
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/tres.pdb
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/tres.genruntimeconfig.cache
+/Users/andres/Cfilo/ejerciciosStructsyArrays/tres/obj/Debug/net8.0/ref/tres.dll
