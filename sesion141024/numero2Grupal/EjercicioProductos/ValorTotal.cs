@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace EjercicioProductos
 {
-    
+
 
 
     public static class Calcular
     {
 
-        public static double calcularValorTotal()
+        public double calcularValorTotal(Producto[] Inventario)
         {
-            //Aqui Rochu mete tu code
+            double valorTotalInventario = 0;
+            foreach (var producto in Inventario)
+            {
+                valorTotalInventario += producto.Precio * producto.CantidadEnStock;
+            }
+
+            return valorTotalInventario;
         }
     }
 }
