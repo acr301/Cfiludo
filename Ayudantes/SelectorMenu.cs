@@ -1,34 +1,107 @@
 namespace Ayudantes
 {
-    public class VerificadorInput
+
+    public class ResultadoValidacion
     {
-        public int ObtenerEnteroValido(int min, int max)
+
+        //simple propiedad de criterio de si es valido o no, modificable y legible
+        public bool esValido { get; set; }
+
+        //declaramos e instanciamos los mensajes de error 
+        //conveniente para darle una idea al usuario de lo que hizo mal
+        public List<string> MensajesError { get; set; } = new List<string>();
+
+        //construimos la propiedad de validez, asignandole por
+        //defecto true, asi en la logica tenemos el "happy path"
+        //con negaciones de este
+        public ResultadoValidacion()
         {
+            esValido = true;
+        }
+    }
 
-            int enteroEntrado;
-            bool validezEntero = false;
-            bool validezEnteroEnRango = false;
+    //en el programa Main, iniciaremos asignando a una variable el valor que retorne
+    // llamar al metodo CrearValidador con el tipo deseado entre < >,
+    // que crea un Validador<tipoDeseado>, a traves del que llamamos al metodo
+    // AgregarRegla, donde AgregarRegla(dato => AyudanteValidacion.ReglaEspecifica(input "nombreCampo"));
+    //
+    //  asignamos a una variable el valor a validar 
+    //
+    // campoValidacionResultado = la variable que creamos de primero.Validar(variable del dato)
+    public static class AyudanteValidacion
+    {
 
-            do
-            {
-                validezEntero = int.TryParse(Console.ReadLine(), out enteroEntrado);
-
-                if (enteroEntrado >= min && enteroEntrado <= max)
-                {
-                    validezEnteroEnRango = true;
-                }
-
-                if (validezEntero && validezEnteroEnRango == true)
-                {
-                    break;
-                }
-            }
-            while (true); //infinito, hasta que "break" sea ejecutado
-
-            return enteroEntrado;
+        // metodo para poder crear un validador DE/PARA cualquier tipo
+        public static Validador<T> CrearValidador<T>()
+        {
+            return new Validador<T>();
         }
 
+        // ----------- AQUI LAS REGLAS ESPECIFICAS APLICABLES COMO METODOS ESTATICOS -----------
+
+        public static ResultadoValidacion ValidarRequerido(string input, string nombreCampo)
+        {
+            ResultadoValidacion resultado = new ResultadoValidacion();
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                resultado.esValido = false;
+                resultado.MensajesError.Add($"{nombreCampo} es obligatorio ");
+            }
+            return resultado;
+        }
+
+        public static ResultadoValidacion ValidarRequeridoDoblePositivo(double? input, string nombreCampo)
+        {
+            ResultadoValidacion resultado = new ResultadoValidacion();
+            if (input == null || input <= 0)
+            {
+                resultado.esValido = false;
+                resultado.MensajesError.Add($"{nombreCampo} debe ser positivo");
+            }
+            return resultado;
+        }
     }
+
+
+    //clase de validador generico
+    public class Validador<T>
+    {
+        //el delegado Func<T,TResultado> encapsula el metodo ResultadoValidacion
+        private readonly List<Func<T, ResultadoValidacion>> _reglas = new List<Func<T, ResultadoValidacion>>();
+
+
+        //constructor 
+        public Validador<T> AgregarRegla(Func<T, ResultadoValidacion> regla)
+        {
+            _reglas.Add(regla);
+            return this;
+        }
+
+
+        /// ESTO ES LO MAS IMPORTANTE, EL METODO QUE RETORNA
+        /// LA VALIDACION DE CUALQUIER TIPO
+        public ResultadoValidacion Validacion(T valor)
+        {
+            ResultadoValidacion resultado = new ResultadoValidacion();
+
+            foreach (var regla in _reglas)
+            {
+                var resultadoRegla = regla.Invoke(valor);
+                if (!resultadoRegla.esValido)
+                {
+                    resultado.esValido = false;
+                    resultado.MensajesError.AddRange(resultadoRegla.MensajesError);
+                }
+            }
+            return resultado;
+        }
+    }
+
+
+
+
+    //----------------------------MENU, OPCIONES, ACCIONES -----------------------
+
 
     // "contrato", toda Accion individual debera proveer una
     // implementacion del metodo Ejecutar al conformarse
@@ -36,6 +109,8 @@ namespace Ayudantes
     {
         void Ejecutar();
     }
+
+    //unidad elemental con la que interactua el usuario
     public class Opcion
     {
         public string Descripcion { get; set; }
@@ -48,11 +123,14 @@ namespace Ayudantes
     {
 
         private List<Opcion> opciones;
+        // se debera instanciar un SelectorMenu, bajo el que se instancien
+        // una o mas opciones con su respectiva Descripcion y Accion
 
         public SelectorMenu(List<Opcion> opciones)
         {
             this.opciones = opciones;
         }
+
         public void MenuMostrar()
         {
 

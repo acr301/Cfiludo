@@ -22,6 +22,11 @@ public struct Producto
     public double Precio;
 
     public Producto(int codigo, string nombre, int cantidad, double precio) => (Codigo, Nombre, Cantidad, Precio) = (codigo, nombre, cantidad, precio);
+
+    public override string ToString()
+    {
+        return $"Codigo: {Codigo}, Nombre: {Nombre}, Cantidad: {Cantidad}, Precio: {Precio}";
+    }
 }
 
 public class Inventario
@@ -33,12 +38,30 @@ public class Inventario
         _productos = new List<Producto>();
     }
 
+    public void AgregarProducto(Producto producto)
+    {
+        if (!_productos.Any(p => p.Codigo == producto.Codigo))
+        {
+            _productos.Add(producto);
+            Console.WriteLine($"Producto {producto.Nombre} agregado");
+        }
+        else
+        {
+            Console.WriteLine($"Producto con codigo {producto.Codigo} ya existe");
+        }
+    }
 
-    public class AgregarProducto : IAccion
+    public void AgregarProductoDesdeInput()
+    {
+        int codigo =
+        int nombre =
+        Producto productoNuevo = new Producto();
+    }
+    public class AgregarProductoAction : IAccion
     {
         public void Ejecutar()
         {
-
+            AgregarProducto();
         }
     }
 
@@ -89,6 +112,6 @@ class Program
 {
     static void Main(string[] args)
     {
-
+        new SelectorMenu menuProductos = new SelectorMenu();
     }
 }
