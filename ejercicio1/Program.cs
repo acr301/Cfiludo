@@ -26,66 +26,69 @@ public struct Producto
 
 public class Inventario
 {
-    public Producto Articulo;
-    public Inventario(Producto articulo) => (Articulo) = (articulo);
-}
+    private List<Producto> _productos;
 
-public class AgregarProducto : IAccion
-{
-    public void Ejecutar()
+    public Inventario()
     {
-
+        _productos = new List<Producto>();
     }
-}
 
-public class EliminarProducto : IAccion
-{
-    public void Ejecutar()
+
+    public class AgregarProducto : IAccion
     {
+        public void Ejecutar()
+        {
 
+        }
     }
-}
 
-public class ModificarProducto : IAccion
-{
-    public void Ejecutar()
+    public class EliminarProducto : IAccion
     {
+        public void Ejecutar()
+        {
 
+        }
     }
-}
 
-public class ConsultarProducto : IAccion
-{
-    public void Ejecutar()
+    public class ModificarProducto : IAccion
     {
+        public void Ejecutar()
+        {
 
+        }
     }
-}
 
-public class MostrarTodos : IAccion
-{
-    public void Ejecutar()
+    public class ConsultarProducto : IAccion
     {
+        public void Ejecutar()
+        {
 
+        }
     }
-}
 
-public class Salir : IAccion
-{
-    public void Ejecutar()
+    public class MostrarTodos : IAccion
     {
+        public void Ejecutar()
+        {
 
+        }
     }
-}
 
+    public class Salir : IAccion
+    {
+        public void Ejecutar()
+        {
+
+        }
+    }
+
+}
 
 
 class Program
 {
     static void Main(string[] args)
     {
-
-
 
     }
 }
