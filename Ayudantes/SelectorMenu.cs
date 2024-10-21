@@ -30,11 +30,27 @@ namespace Ayudantes
 
     }
 
+    // "contrato", toda Accion individual debera proveer una
+    // implementacion del metodo Ejecutar al conformarse
+    public interface IAccion
+    {
+        void Ejecutar();
+    }
+    public class Opcion
+    {
+        public string Descripcion { get; set; }
+        public IAccion Accion { get; set; }
+
+        public Opcion(string descripcion, IAccion accion) => (Descripcion, Accion) = (descripcion, accion);
+    }
+
     public class SelectorMenu
     {
-        public int Menu(List<string> options)
+        public int Menu(List<string> opciones)
         {
-            return 0;
+            int indiceInicial = 0;
+
+            return indiceInicial;
         }
     }
 }
