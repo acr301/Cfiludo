@@ -144,6 +144,8 @@ namespace Ayudantes
 
 
         private List<Opcion> opciones;
+
+        //inicializamos en 0 para que apunte a nuestra primera opcion
         private int opcionSeleccionada = 0;
 
         // se debera instanciar un SelectorMenu, bajo el que se instancien
@@ -157,14 +159,16 @@ namespace Ayudantes
         public void MenuMostrar()
         {
 
-            //inicializamos esto en 0 para que apunte al primer elemento
-            //de la lista opciones 
 
 
             bool salir = false;
             while (!salir)
             {
+                //limpiar la consola constantemente;
+                //da la ilusion de fluidez
                 Console.Clear();
+
+                //formato simple para mostrar al usuario que si es la opcion
                 for (int i = 0; i < opciones.Count; i++)
                 {
                     if (i == opcionSeleccionada)
@@ -177,10 +181,15 @@ namespace Ayudantes
                     }
                 }
 
+                // lee CUALQUIER tecla pulsada
                 var tecla = Console.ReadKey().Key;
+
+
+                // esto viene de un enum
                 switch (tecla)
                 {
                     case ConsoleKey.UpArrow:
+                        // operador TERNARIO, condicionTrueoFalse ? consequentTrueOFalse : alternative si la primera fue falsa
                         opcionSeleccionada = (opcionSeleccionada == 0) ? opciones.Count - 1 : opcionSeleccionada - 1;
                         break;
                     case ConsoleKey.DownArrow:
