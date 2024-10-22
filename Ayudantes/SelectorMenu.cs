@@ -39,10 +39,22 @@ namespace Ayudantes
 
         // ----------- AQUI LAS REGLAS ESPECIFICAS APLICABLES COMO METODOS ESTATICOS -----------
 
-        public static ResultadoValidacion ValidarRequerido(string input, string nombreCampo)
+        public static ResultadoValidacion ValidarRequeridoString(string input, string nombreCampo)
         {
             ResultadoValidacion resultado = new ResultadoValidacion();
             if (string.IsNullOrWhiteSpace(input))
+            {
+                resultado.esValido = false;
+                resultado.MensajesError.Add($"{nombreCampo} es obligatorio ");
+            }
+            return resultado;
+        }
+
+
+        public static ResultadoValidacion ValidarRequeridoEntero(int? input, string nombreCampo)
+        {
+            ResultadoValidacion resultado = new ResultadoValidacion();
+            if (!input.HasValue)
             {
                 resultado.esValido = false;
                 resultado.MensajesError.Add($"{nombreCampo} es obligatorio ");
@@ -130,7 +142,10 @@ namespace Ayudantes
     public class SelectorMenu
     {
 
+
         private List<Opcion> opciones;
+        private int opcionSeleccionada = 0;
+
         // se debera instanciar un SelectorMenu, bajo el que se instancien
         // una o mas opciones con su respectiva Descripcion y Accion
 
@@ -143,77 +158,45 @@ namespace Ayudantes
         {
 
             //inicializamos esto en 0 para que apunte al primer elemento
-            //de la lista opciones
-            int opcionSeleccionada = 0;
+            //de la lista opciones 
 
-            // por defecto true, haremos false 
-            // dependiendo de tecla del usuario
-            bool continuarMostrando = true;
 
-            //instancia del enum ConsoleKey, contiene todas las teclas pulsables
-            ConsoleKeyInfo tecla;
-
-            while (continuarMostrando)
+            bool salir = false;
+            while (!salir)
             {
                 Console.Clear();
-
-                //por cada una de las opciones
                 for (int i = 0; i < opciones.Count; i++)
                 {
-                    //se dara formato visual a la que este seleccionada
                     if (i == opcionSeleccionada)
                     {
-                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"> {opciones[i].Descripcion}");
-                        Console.ResetColor();
                     }
-                    else //la que no este seleccionada
+                    else
                     {
-                        Console.WriteLine($"  {opciones[i].Descripcion}");
-                    }
-
-
-                    //overload booleano al metodo que pide leer, 
-                    //pasa esa tecla leida a tecla invocando el metodo .Key
-                    tecla = Console.ReadKey(true);
-
-                    switch (tecla.Key)
-                    {
-                        case ConsoleKey.UpArrow:
-                            opcionSeleccionada--;
-
-                            // si se pulsa hacia arriba siendo el valor 0, es decir,
-                            // se vuelve -1, entonces le asignamos el ultimo valor,
-                            // para que "vaya hasta abajo"
-                            if (opcionSeleccionada < 0)
-                                opcionSeleccionada = opciones.Count - 1;
-                            break;
-
-                        case ConsoleKey.DownArrow:
-                            opcionSeleccionada++;
-
-                            // manda al principio
-                            if (opcionSeleccionada >= opciones.Count)
-                                opcionSeleccionada = 0;
-                            break;
-
-
-                        case ConsoleKey.Enter:
-                            Console.Clear();
-                            // ejecutamos la accion de dicha opcion
-                            opciones[opcionSeleccionada].Accion.Ejecutar();
-
-                            if (opciones[opcionSeleccionada].Accion is AccionSalir)
-                            {
-                                continuarMostrando = false;
-                            }
-                            break;
-
-                        case ConsoleKey.Escape:
-                            return;
+                        Console.WriteLine($" {opciones[i].Descripcion}");
                     }
                 }
+
+                var tecla = Console.ReadKey().Key;
+                switch (tecla)
+                {
+                    case ConsoleKey.UpArrow:
+                        opcionSeleccionada = (opcionSeleccionada == 0) ? opciones.Count - 1 : opcionSeleccionada - 1;
+                        break;
+                    case ConsoleKey.DownArrow:
+                        opcionSeleccionada = (opcionSeleccionada == opciones.Count - 1) ? 0 : opcionSeleccionada + 1;
+                        break;
+                    case ConsoleKey.Enter:
+                        opciones[opcionSeleccionada].Accion.Ejecutar();
+                        if (opciones[opcionSeleccionada].Accion is AccionSalir)
+                        {
+                            salir = true;
+                        }
+                        break;
+                }
             }
+
+
         }
     }
 }
