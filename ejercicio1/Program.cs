@@ -53,9 +53,13 @@ public class Inventario
 
     public void AgregarProductoDesdeInput()
     {
-        int codigo =
-        int nombre =
-        Producto productoNuevo = new Producto();
+        var positivoDobleValidador = new
+          //requerido
+          int codigo =
+          int nombre =
+
+          //double
+          Producto productoNuevo = new Producto();
     }
     public class AgregarProductoAction : IAccion
     {

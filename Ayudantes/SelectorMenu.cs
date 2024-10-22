@@ -110,6 +110,14 @@ namespace Ayudantes
         void Ejecutar();
     }
 
+    public class AccionSalir : IAccion
+    {
+        public void Ejecutar()
+        {
+            Console.WriteLine(" Saliendo del programa... ");
+        }
+    }
+
     //unidad elemental con la que interactua el usuario
     public class Opcion
     {
@@ -138,10 +146,14 @@ namespace Ayudantes
             //de la lista opciones
             int opcionSeleccionada = 0;
 
+            // por defecto true, haremos false 
+            // dependiendo de tecla del usuario
+            bool continuarMostrando = true;
+
             //instancia del enum ConsoleKey, contiene todas las teclas pulsables
             ConsoleKeyInfo tecla;
 
-            do
+            while (continuarMostrando)
             {
                 Console.Clear();
 
@@ -187,12 +199,21 @@ namespace Ayudantes
 
 
                         case ConsoleKey.Enter:
+                            Console.Clear();
                             // ejecutamos la accion de dicha opcion
                             opciones[opcionSeleccionada].Accion.Ejecutar();
+
+                            if (opciones[opcionSeleccionada].Accion is AccionSalir)
+                            {
+                                continuarMostrando = false;
+                            }
                             break;
+
+                        case ConsoleKey.Escape:
+                            return;
                     }
                 }
-            } while (true);
+            }
         }
     }
 }
